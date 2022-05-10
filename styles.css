@@ -600,10 +600,37 @@ main {
 
 .plans__container-slider::-webkit-scrollbar {
     background-color: var(--soft-orange);
-    
+
     height: 12px;
 }
 
 .plans__container-slider::-webkit-scrollbar-thumb {
     background-color: var(--bitcoin-orange);
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 100%;
+    height: 150px;
+
+    background-color: var(--bitcoin-orange);
+}
+
+footer .left ul {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8;
+    list-style-type: none;
+}
+
+.left li {
+    margin: 10px 0;
+}
+
+.left a {
+    text-decoration: none;
+    color: var(--white);
 }
